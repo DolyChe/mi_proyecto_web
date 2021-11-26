@@ -1,0 +1,22 @@
+.info-container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+video {
+	width: 300px;
+	height: 300px;
+}
+
+.nosotros {
+	text-align: center;
+	margin: 30px;
+}
+
+.nosotros h3 {
+	color: rgb(0, 0, 0);
+}
+.nosotros img {
+	width: 300px;
+}

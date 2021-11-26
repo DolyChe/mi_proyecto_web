@@ -1,0 +1,98 @@
+form {
+	width: 450px;
+	margin: auto;
+	background: rgba(201, 71, 168, 0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input,
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#btn {
+	background: #a83665;
+	color: white;
+	padding: 20px;
+	border-radius: 30px;
+	width: 200px;
+	height: 50px;
+}
+
+#btn:hover {
+	cursor: pointer;
+}
+
+#productos {
+	color: rgb(121, 7, 30);
+}
+#deseado {
+	color: rgb(0, 0, 0);
+}
+
+#imagen {
+	width: 250px;
+	height: 200px;
+	margin: 20px;
+}
+
+#envia {
+	width: 200px;
+	height: 50px;
+	background-color: rgb(144, 228, 196);
+	border-radius: 15px;
+	border: solid 2px;
+	border-color: rgb(144, 228, 196);
+	color: rgb(65, 19, 45);
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#envia:hover {
+	background-color: rgb(51, 153, 139);
+	border-color: rgb(51, 153, 139);
+}
+
+#image-btn {
+	width: 50px;
+	height: 50px;
+}
+#envia a {
+	color: black;
+}
+
+.dca {
+	color: rgb(204, 39, 154);
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+	form {
+		width: 250px;
+	}
+	#imagen {
+		width: 150px;
+		height: 150px;
+	}
+}

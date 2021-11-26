@@ -1,17 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto Web</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/nav.css">
+  <link rel="stylesheet" href="style/banner.css">
+  <link rel="stylesheet" href="style/flex.css">
+  <link rel="stylesheet" href="style/pedidos.css">
+  <title>Mi Proyecto Web</title>
 </head>
+
 <body>
-  <h1>Hola, mundo</h1>  
-  <h2>Te damos la bienvenida al mundo de la programación</h2>
-  <p>
-      <b>Advertencia:</b>
-      Una vez que inicas este curso, no volverás a ser la misma persona
-  </p>
+  <!--Barra de navegación-->
+  <header>
+    <div class="container">
+      <img id="logo" src="assets/iconnew.png" alt="logo">
+      <h1>SWEET DOLLY</h1>
+      <input type="checkbox" id="menu-bar">
+      <label for="menu-bar"><img id="icon-menu" src="assets/menu-icon.png" alt="menu"></label>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="menu.html">Menú</a> </li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--Contenido principal-->
+  <main>
+    <section id="banner">
+      <img src="assets/banner2.jpg" alt="postres">
+      <div class="container">
+        <h2>
+          Endulza tu día
+        </h2>
+        <h3>
+          Postres para cada ocasión
+        </h3>
+      </div>
+    </section>
+  </main>
+  <!--Contenedor-cuadros-->
+  <h2>Nos apasiona lo que hacemos</h2>
+  <h3>Calidad, servicio e innovación</h3>
+  <div class="flex-container">
+    <div class="container-n">
+      <img src="assets/ingre.png" alt="ingredientes">
+      <h5>Ingredientes</h5>
+    </div>
+    <div class="container-n">
+      <img src="assets/preparación.png" alt="preparación">
+      <h5>Preparación</h5>
+    </div>
+    <div class="container-n">
+      <img src="assets/terminado.png" alt="terminado">
+      <h5>Terminado</h5>
+    </div>
+    <div class="container-n">
+      <img src="assets/entrega.png" alt="entrega">
+      <h5>Entrega</h5>
+    </div>
+    <div class="container-n">
+      <img src="assets/disfruta.png" alt="disfruta">
+      <h5>¡A DISFRUTAR!</h5>
+    </div>
+  </div>
+  <!--Extra-->
+  <section id="extra">
+    <h3>Contamos con una gran variedad decoraciones, para cada momento.</h3>
+
+    <p>Personaliza tus pedidos</p>
+    <div class="container">
+      <div class="extra-postres">
+        <img src="assets/boda.jpg" alt="pastel-boda">
+        <h4>Bodas</h4>
+      </div>
+      <div class="extra-postres">
+        <img src="assets/bautizo-pastel.jpg" alt="pastel-bautizo">
+        <h4>Bautizos</h4>
+      </div>
+      <div class="extra-postres">
+        <img src="assets/cumpleaños-pastel.jpg" alt="pastel-cumpleaños">
+        <h4>Cumpleaños
+        </h4>
+      </div>
+    </div>
+    <div class="extra-postres">
+      <img src="assets/xv-pastel.jpg" alt="pastel-xv">
+      <h4>XV años</h4>
+    </div>
+    <div class="extra-postres">
+      <img src="assets/comunion-pastel.jpg" alt="pastel-comunión">
+      <h4>Primera comunión</h4>
+    </div>
+    </div>
+  </section>
+
+
+  <!--footer-->
+  <footer>
+    <div class="container">
+      <p class="foot-ult">SWEET DOLLY</p>
+      <div class="sociales">
+        <a href="https://es-la.facebook.com/"><img src="assets/icon-fb.png" alt="icon-facebook"></a>
+        <a href="https://twitter.com/?lang=es"><img src="assets/icon-twr.png" alt="icon-twitter"></a>
+        <a href="https://www.whatsapp.com/?lang=es"><img src="assets/icon-whats.png" alt="icon-whatsapp"></a>
+        <a href="https://www.instagram.com/?hl=es"><img src="assets/icon-insta.png" alt="icon-instagram"></a>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
